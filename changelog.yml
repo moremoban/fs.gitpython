@@ -5,8 +5,14 @@ releases:
   - action: Added
     details:
     - "`#12`:fix github protocol timeout problem"
+  version: 0.0.5
+  date: 09.11.2024
+- changes:
+  - action: Added
+    details:
+    - "`#12`:fix github protocol timeout problem"
   version: 0.0.4
-  date: 10.11.2024
+  date: 11.10.2024
 - changes:
   - action: Added
     details:

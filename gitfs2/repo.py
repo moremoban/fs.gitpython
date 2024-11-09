@@ -16,7 +16,7 @@ class GitRequire(object):
     def __init__(
         self, git_url=None, branch=None, submodule="False", reference=None
     ):
-        self.git_url = git_url.replace("git://", "ssh://git@")
+        self.git_url = git_url.replace("git://", "https://")
         self.submodule = convert_submodule(submodule)
         self.branch = branch
         self.reference = reference
